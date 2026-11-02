@@ -8,10 +8,13 @@ QField-putkiprojektin ohjesivusto. Korjattavaa:
 ## Ohje:
 
 > pip install mkdocs
+>
 > cd my-project
+> 
 > python -m pip install -e ".[docs]"
+> 
 > pip install mkdocs-material
-
+> 
 > python -m mkdocs serve
 
 Sivusto nähtävissä osoitteessa: 

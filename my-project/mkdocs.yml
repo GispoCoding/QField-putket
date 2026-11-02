@@ -1,0 +1,66 @@
+site_name: Käyttöohje
+site_url: https://gispocoding.github.io/REPOSITORY_NAME/
+copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a>'
+
+nav:
+  - <img src="img/markkeri.png"/> Koti: index.md
+  - Esittely: sivu_1.md
+  - Muutosloki: muutosloki.md
+#  - Projektin lataaminen: projektin_lataaminen.md
+#  - Karttanäkymä: karttanäkymä.md
+#  - Selainkäyttöliittymä: selainkayttoliittyma.md
+#  - Tietojen tallentaminen peltolohkolle: tietojen_tallentaminen_peltolohkolle.md
+#  - Salaojakarttojen georeferointi: salaojakarttojen_georeferointi.md
+#  - Reitin nauhoitus: reitin_nauhoitus.md
+#  - Muut ominaisuudet: muut_ominaisuudet.md
+#  - Palaute: palaute.md
+
+use_directory_urls: false
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      toc_depth: 2
+
+theme:
+  name: material
+  language: fi
+  custom_dir: docs/overrides
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+  palette:
+    scheme: scheme_1
+  logo: img/gispologo.svg
+  favicon: img/gispologo.svg
+
+
+
+plugins:
+  - redirects:
+      redirect_maps:
+        '8_saadata.md': 'saadata.md'
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+  - glightbox
+extra_css:
+  - stylesheets/extra.css

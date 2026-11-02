@@ -1,0 +1,37 @@
+name: Create release
+
+on:
+  push:
+    tags:
+      - v*
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  tag: ${{ github.ref_name }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install uv
+          python -m uv sync
+
+      - name: Build Wheel
+        run: |
+          uv build
+
+          # HACK: move this so we can link to the "latest" GH release in docs etc.
+          mv dist/*.whl dist/peltomappi-alpha-py3-none-any.whl
+          gh release create "$tag" --repo="$GITHUB_REPOSITORY" --title="${GITHUB_REPOSITORY#*/} ${tag#v}" --generate-notes ./dist/*

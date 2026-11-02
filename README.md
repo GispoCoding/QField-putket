@@ -9,7 +9,7 @@ QField-putkiprojektin ohjesivusto. Korjattavaa:
 
 > pip install mkdocs
 >
-> cd my-project
+> cd QField-putket
 > 
 > python -m pip install -e ".[docs]"
 > 

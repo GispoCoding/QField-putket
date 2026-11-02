@@ -20,8 +20,8 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://gispocoding.github.io/kayttoohje"
-repository = "https://github.com/GispoCoding/"
+homepage = "https://gispocoding.github.io/QField-putket"
+repository = "https://github.com/GispoCoding/Qfield-putket"
 
 [project.scripts]
 project = "project.main:main"

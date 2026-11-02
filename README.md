@@ -1,6 +1,8 @@
 # Info
 
-QField-putkiprojektin ohjesivusto. Korjattavaa:
+QField-putkiprojektin ohjesivusto. Sivusto nähtävissä: https://gispocoding.github.io/QField-putket/
+
+Korjattavaa:
 - teema
 - sisällöt
 - ohjeiden syöttäminen Wordista tähän pohjaan

@@ -1,19 +1,14 @@
 site_name: Käyttöohje
 site_url: https://gispocoding.github.io/Qfield-putket/
-copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a>'
+copyright: 'Tekijä: <a href="mailto:info@gispo.fi">Gispo Suomi Oy</a>'
 
 nav:
-  - <img src="img/markkeri.png"/> Koti: index.md
-  - Esittely: sivu_1.md
-  - Muutosloki: muutosloki.md
-#  - Projektin lataaminen: projektin_lataaminen.md
-#  - Karttanäkymä: karttanäkymä.md
-#  - Selainkäyttöliittymä: selainkayttoliittyma.md
-#  - Tietojen tallentaminen peltolohkolle: tietojen_tallentaminen_peltolohkolle.md
-#  - Salaojakarttojen georeferointi: salaojakarttojen_georeferointi.md
-#  - Reitin nauhoitus: reitin_nauhoitus.md
-#  - Muut ominaisuudet: muut_ominaisuudet.md
-#  - Palaute: palaute.md
+  - '<img src="img/markkeri.png"/> Koti': index.md
+  - 1. Johdanto: 1_johdanto.md
+  - 2. Projektin valmistelu: 2_projektin_valmistelu_qgississa_ja_vienti_qfieldiin.md
+  - 3. Lomakemääritykset: 3_lomakemaaritykset.md
+  - 4. Kenttätyöskentely: 4_kenttatyoskentely.md
+  - 5. Muutosloki: muutosloki.md
 
 use_directory_urls: false
 
@@ -45,16 +40,11 @@ theme:
     - header.autohide
     - content.code.copy
   palette:
-    scheme: scheme_1
+    scheme: default
   logo: img/gispologo.svg
   favicon: img/gispologo.svg
 
-
-
 plugins:
-  - redirects:
-      redirect_maps:
-        '8_saadata.md': 'saadata.md'
   - search
   - mkdocstrings:
       handlers:
@@ -62,5 +52,6 @@ plugins:
           options:
             show_source: false
   - glightbox
+
 extra_css:
   - stylesheets/extra.css

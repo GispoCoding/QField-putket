@@ -1,15 +1,4 @@
-# **4. Projektin avaaminen QFieldiin**
-
-Projektin avaaminen QFieldin Tuo projekti ZIP-tiedostosta toiminnolla
-Lataa tämä [versio](https://drive.google.com/uc?export=download&id=1JRZVbvCjtMF9B2ox4LwmL-OoaOM6lCo-) drive ZIP-tiedosto puhelimeesi (Latautuu suoraan linkistä)
-
-1.  Avaa QField ja valitse Avaa paikallinen tiedosto.
-2.  Klikkaa oikean alakulman <img src="img/image8.png" width="30" alt="QFieldin muokkaustilan kytkeminen päälle">painiketta ja valitse **"Tuo projekti ZIP-tiedostosta"**
-3.  Etsi juuri ladattu tiedosto. Löytyy yleensä Lataukset/Downloads- kansiosta.
-4.  Jos QField löytää vanhan version, valitse "Tuonti ja päällekirjoitus"
-5.  Valitse Hakemisto-kohdasta ensin **“Hki-pohjavesi_projektitiedosto_v1”** ja sen jälkeen Projektit- kohdasta projektitiedosto **“Hki-pohjavesi_projektitiedosto”**
-
-# **4.1 Kenttätyöskentelyn työnkulku QFieldissä**
+# **2. Kenttätyöskentely QFieldissä**
 
 <img src="img/image7.png" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
 <img src="img/image4.png" width="247" alt="QField valikkonäkymä">
@@ -17,7 +6,7 @@ Lataa tämä [versio](https://drive.google.com/uc?export=download&id=1JRZVbvCjtM
 <img src="img/image3.png" width="247" alt="QField käyttöliittymä">
 <img src="img/image6.png" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
 
-## **4.1 QField-sovelluksen käyttäjän paikannuksen ohjeistus**
+## **2.1 QField-sovelluksen käyttäjän paikannuksen ohjeistus**
 
 Varmista ennen maastoon menoa, että puhelin antaa QFieldille paikannusoikeudet:
 
@@ -27,18 +16,18 @@ Varmista ennen maastoon menoa, että puhelin antaa QFieldille paikannusoikeudet:
 2.  **Virransäästön ohitus:** Avaa puhelimen *Akku / Virransäästö* -asetukset ja aseta QFieldin kohdalle **Rajoittamaton** (*Unrestricted*). Tämä estää puhelinta sammuttamasta GPS-piiriä näytön sammuessa tai taustalla ollessa.
 3.  **Mobiilidata ja esteettömyys:** Käynnistä puhelimen sijaintipalvelut avoimen taivaan alla 1–2 minuuttia ennen mittauksia, jotta GPS lataa satelliitit
 
-## **4.2 Paikannustilat ja näytön symbolit QFieldissä**
+## **2.2 Paikannustilat ja näytön symbolit QFieldissä**
 
 Paikannustoimintoja ohjataan karttanäytön alareunan **tähtäinpainikkeella**:
 
 <img src="img/image5.png" width="450" alt="Paikannustilat">
 <img src="img/image9.png" width="450" alt="Paikannustilat">
 
-## **4.3. Paikannus ja kohteen mittaus QFieldillä**
+## **2.3 Paikannus ja kohteen mittaus QFieldillä**
 
 Tämä ohje kattaa uuden kaivopisteen luomisen GPS-paikannuksella, paikannuksen tarkkuusasetukset sekä työkalut, joiden avulla löydät jo olemassa olevat kohteet maastossa.
 
-### **4.3.1. Havainnon lisääminen pisteelle**
+### **2.3.1 Havainnon lisääminen pisteelle**
 
 1.  Avaa projekti QFieldissä selaustilassa (kts. painike 4 c.)
 
@@ -61,7 +50,7 @@ Tämä ohje kattaa uuden kaivopisteen luomisen GPS-paikannuksella, paikannuksen 
 
 
 
-### **4.3.2 Uuden kaivopisteen mittaus paikannuksella**
+### **2.3.2 Uuden kaivopisteen mittaus paikannuksella**
 
 Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, toimi seuraavasti:
 
@@ -80,7 +69,7 @@ Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, 
 5.  Tallenna piste valintamerkillä <img src="img/image15.png" width="30" alt="Relaatio widget"> ja täytä avautuvalle lomakkeelle kaivon tiedot
 
 
-### **4.4 Kohteen etsintä maastossa (Tarkkuusnäkymä ja äänipalaute)**
+## **2.4 Kohteen etsintä maastossa (Tarkkuusnäkymä ja äänipalaute)**
 
 Kun etsit maastosta olemassa olevaa pistettä (esim. piilotettua pohjavesikaivoa tai vanhaa mittauspistettä), QField tarjoaa tarkan navigointityökalun ja äänipalautteen kohteen löytämiseksi senttimetrien tarkkuudella.
 
@@ -102,7 +91,7 @@ Kun etsit maastosta olemassa olevaa pistettä (esim. piilotettua pohjavesikaivoa
 
 ### 
 
-### **4.4.1 Paikannusasetukset**
+### **2.4.1 Paikannusasetukset**
 
 Virheellisten sijaintitallennusten estämiseksi QFieldiin kannattaa asettaa kiinteät tarkkuusrajat:
 
@@ -113,7 +102,7 @@ Virheellisten sijaintitallennusten estämiseksi QFieldiin kannattaa asettaa kiin
       1.  **Havaintojen vähimmäismäärä:** Aseta tähän esim. 10 havaintoa.
     - **Antennikorkeuden kompensaatio:** Jos puhelinta tai GNSS-sauvaa pidetään mittaustangon päässä, syötä tähän sauvan pituus metreinä, jotta korkeuslukema lasketaan oikein maanpinnalle.
 
-### **4.5 Ulkoisen tarkkuus-GNSS-vastaanottimen käyttö (Valinnainen)**
+## **2.5 Ulkoisen tarkkuus-GNSS-vastaanottimen käyttö (Valinnainen)**
 
 Jos käytössä on erillinen RTK-tarkkuuslaite (kuten Emlid Reach, Trimble, Leica tai Garmin GLO), sen avulla voidaan saavuttaa huomattavasti puhelimen omaa GPS:ää tarkempi sijainti:
 
@@ -122,7 +111,7 @@ Jos käytössä on erillinen RTK-tarkkuuslaite (kuten Emlid Reach, Trimble, Leic
 3.  Vaihda *Sisäinen GNSS (Internal)* asetukseen **Bluetooth-laite** ja valitse listalta liitetty vastaanotin.
 4.  QField alkaa lukea suoraan laitteen NMEA-dataa, jolloin sijaintitarkkuus kartalla putoaa parhaimmillaan senttimetritasolle ja Z-korkeuslukema vastaa suoraan takymetrimittausta.
 
-### **4.4.1. Aineiston synkronointi ja laadunvalvonta**
+## **2.6 Aineiston synkronointi ja laadunvalvonta**
 
 1.  **Mobiililaitteessa:** Varmista kenttätyön päätteeksi, että kaikki avoimet lomakkeet on vahvistettu ja tallennettu.
 2.  **Synkronointi takaisin järjestelmään:**

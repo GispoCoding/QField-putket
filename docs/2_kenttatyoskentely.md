@@ -1,10 +1,10 @@
-# **2. Kenttätyöskentely QFieldissä**
+# 2. Kenttätyöskentely QFieldissä
 
 <img src="img/image7.png" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/> <img src="img/image4.png" alt="QField valikkonäkymä" width="247"/>
 
 <img src="img/image3.png" alt="QField käyttöliittymä" width="247"/> <img src="img/image6.png" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/>
 
-## **2.1 QField-sovelluksen käyttäjän paikannuksen ohjeistus**
+## 2.1 QField-sovelluksen käyttäjän paikannuksen ohjeistus
 
 Varmista ennen maastoon menoa, että puhelin antaa QFieldille paikannusoikeudet:
 
@@ -14,17 +14,17 @@ Varmista ennen maastoon menoa, että puhelin antaa QFieldille paikannusoikeudet:
 2.  **Virransäästön ohitus:** Avaa puhelimen *Akku / Virransäästö* -asetukset ja aseta QFieldin kohdalle **Rajoittamaton** (*Unrestricted*). Tämä estää puhelinta sammuttamasta GPS-piiriä näytön sammuessa tai taustalla ollessa.
 3.  **Mobiilidata ja esteettömyys:** Käynnistä puhelimen sijaintipalvelut avoimen taivaan alla 1–2 minuuttia ennen mittauksia, jotta GPS lataa satelliitit
 
-## **2.2 Paikannustilat ja näytön symbolit QFieldissä**
+## 2.2 Paikannustilat ja näytön symbolit QFieldissä
 
 Paikannustoimintoja ohjataan karttanäytön alareunan **tähtäinpainikkeella**:
 
 <img src="img/image5.png" alt="Paikannustilat" width="450"/> <img src="img/image9.png" alt="Paikannustilat" width="450"/>
 
-## **2.3 Paikannus ja kohteen mittaus QFieldillä**
+## 2.3 Paikannus ja kohteen mittaus QFieldillä
 
 Tämä ohje kattaa uuden kaivopisteen luomisen GPS-paikannuksella, paikannuksen tarkkuusasetukset sekä työkalut, joiden avulla löydät jo olemassa olevat kohteet maastossa.
 
-### **2.3.1 Havainnon lisääminen pisteelle**
+### 2.3.1 Havainnon lisääminen pisteelle
 
 1.  Avaa projekti QFieldissä selaustilassa (kts. painike 4 c.)
 
@@ -44,7 +44,7 @@ Tämä ohje kattaa uuden kaivopisteen luomisen GPS-paikannuksella, paikannuksen 
 
 7.  Vahvista ja tallenna havainto napsauttamalta <img src="img/image14.png" alt="check mark" width="30"/>
 
-### **2.3.2 Uuden kaivopisteen mittaus paikannuksella**
+### 2.3.2 Uuden kaivopisteen mittaus paikannuksella
 
 Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, toimi seuraavasti:
 
@@ -62,7 +62,7 @@ Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, 
 
 5.  Tallenna piste valintamerkillä <img src="img/image15.png" alt="Relaatio widget" width="30"/> ja täytä avautuvalle lomakkeelle kaivon tiedot
 
-## **2.4 Kohteen etsintä maastossa (Tarkkuusnäkymä ja äänipalaute)**
+## 2.4 Kohteen etsintä maastossa (Tarkkuusnäkymä ja äänipalaute)
 
 Kun etsit maastosta olemassa olevaa pistettä (esim. piilotettua pohjavesikaivoa tai vanhaa mittauspistettä), QField tarjoaa tarkan navigointityökalun ja äänipalautteen kohteen löytämiseksi senttimetrien tarkkuudella.
 
@@ -84,7 +84,7 @@ Kun etsit maastosta olemassa olevaa pistettä (esim. piilotettua pohjavesikaivoa
 
 ### 
 
-### **2.4.1 Paikannusasetukset**
+### 2.4.1 Paikannusasetukset
 
 Virheellisten sijaintitallennusten estämiseksi QFieldiin kannattaa asettaa kiinteät tarkkuusrajat:
 
@@ -95,7 +95,7 @@ Virheellisten sijaintitallennusten estämiseksi QFieldiin kannattaa asettaa kiin
       1.  **Havaintojen vähimmäismäärä:** Aseta tähän esim. 10 havaintoa.
     - **Antennikorkeuden kompensaatio:** Jos puhelinta tai GNSS-sauvaa pidetään mittaustangon päässä, syötä tähän sauvan pituus metreinä, jotta korkeuslukema lasketaan oikein maanpinnalle.
 
-## **2.5 Ulkoisen tarkkuus-GNSS-vastaanottimen käyttö (Valinnainen)**
+## 2.5 Ulkoisen tarkkuus-GNSS-vastaanottimen käyttö (Valinnainen)
 
 Jos käytössä on erillinen RTK-tarkkuuslaite (kuten Emlid Reach, Trimble, Leica tai Garmin GLO), sen avulla voidaan saavuttaa huomattavasti puhelimen omaa GPS:ää tarkempi sijainti:
 
@@ -104,7 +104,7 @@ Jos käytössä on erillinen RTK-tarkkuuslaite (kuten Emlid Reach, Trimble, Leic
 3.  Vaihda *Sisäinen GNSS (Internal)* asetukseen **Bluetooth-laite** ja valitse listalta liitetty vastaanotin.
 4.  QField alkaa lukea suoraan laitteen NMEA-dataa, jolloin sijaintitarkkuus kartalla putoaa parhaimmillaan senttimetritasolle ja Z-korkeuslukema vastaa suoraan takymetrimittausta.
 
-## **2.6 Aineiston synkronointi ja laadunvalvonta**
+## 2.6 Aineiston synkronointi ja laadunvalvonta
 
 1.  **Mobiililaitteessa:** Varmista kenttätyön päätteeksi, että kaikki avoimet lomakkeet on vahvistettu ja tallennettu.
 2.  **Synkronointi takaisin järjestelmään:**

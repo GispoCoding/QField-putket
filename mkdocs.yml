@@ -5,12 +5,12 @@ copyright: 'Tekijä: <a href="mailto:info@gispo.fi">Gispo Suomi Oy</a>'
 nav:
   - '<img src="img/markkeri.png"/> Koti': index.md
   - 0. Ylläpitäjän ohje:
-      - Johdanto: 1_johdanto.md
-      - Projektin valmistelu: 2_projektin_valmistelu_qgississa_ja_vienti_qfieldiin.md
-      - Lomakemääritykset: 3_lomakemaaritykset.md
-  - 1. Alkuvalmistelu: 1_alkuvalmistelu.md
-  - 2. Kenttätyöskentely: 4_kenttatyoskentely.md
-  - 3. Muutosloki: muutosloki.md
+      - Yleiskuva: 0_yllapitajan_ohje.md
+      - QGIS-projektin valmistelu: projektin_valmistelu_qgississa_ja_vienti_qfieldiin.md
+      - Lomakemääritykset: lomakemaaritykset.md
+  - 1. QFieldin käyttöönotto: 1_qfieldin_kayttoonotto.md
+  - 2. Kenttätyöskentely: 2_kenttatyoskentely.md
+  - 3. Muutosloki: 3_muutosloki.md
 
 use_directory_urls: false
 
@@ -26,7 +26,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - toc:
-      toc_depth: 2
+      toc_depth: 3
 
 theme:
   name: material
@@ -54,6 +54,12 @@ plugins:
           options:
             show_source: false
   - glightbox
+  - exclude:
+      glob:
+        - 'Käyttöönottodokumentti.md'
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/collapsible-toc.js

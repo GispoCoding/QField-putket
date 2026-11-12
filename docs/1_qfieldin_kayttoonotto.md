@@ -1,4 +1,4 @@
-# **1. Alkuvalmistelu**
+# **1. QFieldin käyttöönotto**
 
 ## Lataa QField-mobiilisovellus laitteellesi
 
@@ -6,7 +6,7 @@ Lataa QField laitteesi sovelluskaupasta:
 
 <a href="https://apps.apple.com/us/app/qfield-for-qgis/id1531726814" target="_blank" rel="noopener noreferrer"> <img src="img/app_store_badge_black.svg" alt="Download on the App Store" width="120"/> </a><a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener noreferrer"> <img src="img/google-play-badge.png" alt="Get it on Google Play" width="120"/> </a><a href="https://apps.microsoft.com/detail/xp99h3bcx4bw7f?hl=fi-FI&gl=FI" target="_blank" rel="noopener noreferrer"> <img src="img/app_download_windows.png" alt="Available on Windows" width="120"/> </a>
 
-## **Tuetut käyttöjärjestelmäversiot**
+## Tuetut käyttöjärjestelmäversiot
 
 QFieldin mobiilisovelluksen vähimmäiskäyttöjärjestelmäversiot:
 

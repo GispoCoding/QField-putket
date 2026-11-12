@@ -1,10 +1,8 @@
 # **2. Kenttätyöskentely QFieldissä**
 
-<img src="img/image7.png" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
-<img src="img/image4.png" width="247" alt="QField valikkonäkymä">
+<img src="img/image7.png" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/> <img src="img/image4.png" alt="QField valikkonäkymä" width="247"/>
 
-<img src="img/image3.png" width="247" alt="QField käyttöliittymä">
-<img src="img/image6.png" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
+<img src="img/image3.png" alt="QField käyttöliittymä" width="247"/> <img src="img/image6.png" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/>
 
 ## **2.1 QField-sovelluksen käyttäjän paikannuksen ohjeistus**
 
@@ -20,8 +18,7 @@ Varmista ennen maastoon menoa, että puhelin antaa QFieldille paikannusoikeudet:
 
 Paikannustoimintoja ohjataan karttanäytön alareunan **tähtäinpainikkeella**:
 
-<img src="img/image5.png" width="450" alt="Paikannustilat">
-<img src="img/image9.png" width="450" alt="Paikannustilat">
+<img src="img/image5.png" alt="Paikannustilat" width="450"/> <img src="img/image9.png" alt="Paikannustilat" width="450"/>
 
 ## **2.3 Paikannus ja kohteen mittaus QFieldillä**
 
@@ -37,18 +34,15 @@ Tämä ohje kattaa uuden kaivopisteen luomisen GPS-paikannuksella, paikannuksen 
 
 4.  Laita muokkaustila päälle
 
-    <img src="img/editing_mode.gif" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
+    <img src="img/editing_mode.gif" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/>
 
-5.  Napsauta relaatiowidgetissä +- painiketta<br>
-<img src="img/havainto_relaatiowidget.png" width="450" alt="Relaatio widget">
+5.  Napsauta relaatiowidgetissä +- painiketta<br> <img src="img/havainto_relaatiowidget.png" alt="Relaatio widget" width="450"/>
 
 6.  Täytä havainnon tiedot (TASO, SYVYYS jne.).
 
     ![](img/havainto_lomake.png)
 
-7. Vahvista ja tallenna havainto napsauttamalta <img src="img/image14.png" width="30" alt="check mark">
-
-
+7.  Vahvista ja tallenna havainto napsauttamalta <img src="img/image14.png" alt="check mark" width="30"/>
 
 ### **2.3.2 Uuden kaivopisteen mittaus paikannuksella**
 
@@ -56,7 +50,7 @@ Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, 
 
 1.  Kytke **Muokkaustila** päälle vasemman ylakulman valikosta (kynäikoni).
 
-    <img src="img/editing_mode.gif" width="247" alt="QFieldin muokkaustilan kytkeminen päälle">
+    <img src="img/editing_mode.gif" alt="QFieldin muokkaustilan kytkeminen päälle" width="247"/>
 
 2.  Valitse aktiiviseksi tasoksi pohjavesipiste.
 
@@ -66,8 +60,7 @@ Jos luot maastossa uutta mitattavaa pohjavesipistettä suoraan GPS-sijaintiisi, 
 
     - Jos haluat tallentaa pisteen muuhun kuin sijantiisi, siirrä tähtäinkuvake sormilla oikeaan kohtaan
 
-5.  Tallenna piste valintamerkillä <img src="img/image15.png" width="30" alt="Relaatio widget"> ja täytä avautuvalle lomakkeelle kaivon tiedot
-
+5.  Tallenna piste valintamerkillä <img src="img/image15.png" alt="Relaatio widget" width="30"/> ja täytä avautuvalle lomakkeelle kaivon tiedot
 
 ## **2.4 Kohteen etsintä maastossa (Tarkkuusnäkymä ja äänipalaute)**
 

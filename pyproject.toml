@@ -37,6 +37,7 @@ docs = [
     "mkdocs-redirects>=1.2.2",
     "mkdocs-material>=9.6.18",
     "mkdocstrings-python>=0.30.0",
+    "zensical>=0.1.1",
 ]
 
 # lint = [
